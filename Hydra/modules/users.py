@@ -11,10 +11,10 @@ from telegram.ext import (
     run_async,
 )
 
-import NekoRobot.modules.sql.users_sql as sql
-from NekoRobot import DEV_USERS, LOGGER, OWNER_ID, NEKO_PTB
-from NekoRobot.modules.helper_funcs.chat_status import dev_plus, sudo_plus
-from NekoRobot.modules.sql.users_sql import get_all_users
+import Hydra.modules.sql.users_sql as sql
+from Hydra import DEV_USERS, LOGGER, OWNER_ID, NEKO_PTB
+from Hydra.modules.helper_funcs.chat_status import dev_plus, sudo_plus
+from Hydra.modules.sql.users_sql import get_all_users
 
 USERS_GROUP = 4
 CHAT_GROUP = 5
